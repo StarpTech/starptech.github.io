@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>An example microservice system using Hemera and best of today | StarpTech</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">/home/starptech</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/home</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/categories/">~/categories</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tags/">~/tags</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">An example microservice system using Hemera and best of today</span></h1>
+<h2 class="author">Dustin Deus</h2>
+<h2 class="date">2017/01/23</h2>
+<p class="terms">
+  
+  
+  Categories: <a href="/categories/node.js">node.js</a> 
+  
+  
+  
+  Tags: <a href="/tags/poc">poc</a> <a href="/tags/microservice">microservice</a> 
+  
+  
+</p>
+</div>
+
+
+
+<main>
+
+
+<p><img src="https://github.com/hemerajs/aither/blob/master/logo.png?raw=true" alt="aither" /></p>
+
+<h1 id="aither">aither</h1>
+
+<p>Aither shows an approach how to bootstrap a microservice system with <a href="https://github.com/hemerajs/hemera">Hemera</a> and docker.
+You can scale your worker in seconds and because we use NATS as “nervous system&rdquo; for our distributed system we do not have to carry about service-discovery or load-balancing of hemera-services. We use traefik to load-balancing the api-gateway.</p>
+
+<p>This configuration will setup:</p>
+
+<ul>
+<li><a href="https://github.com/hapijs/hapi">Hapi</a> http server which act as api-gataway to the Hemera services.</li>
+<li><a href="https://github.com/hemerajs/aither/blob/master/worker/index.js">Microservice</a> example which is responsible to add two numbers.</li>
+<li><a href="https://github.com/nats-io/gnatsd">NATS</a> server the underlying messaging system for Hemera.</li>
+<li><a href="http://zipkin.io/">Zipkin</a> dashboard to monitoring your distributed system.</li>
+<li><a href="https://github.com/devfacet/natsboard">Natsboard</a> dashboard to monitoring your NATS system in realtime.</li>
+<li><a href="https://traefik.io/">Traefik</a> modern HTTP reverse proxy and load balancer made to deploy microservices with ease.</li>
+</ul>
+
+<h2 id="architecture">Architecture</h2>
+
+<p><img src="https://github.com/hemerajs/aither/blob/master/aither-architecture.png?raw=true" alt="aither" /></p>
+
+<h2 id="running-the-system">Running the system</h2>
+
+<pre><code class="language-sh">docker-compose up
+</code></pre>
+
+<h2 id="scaling-the-system">Scaling the system</h2>
+
+<pre><code>docker-compose scale worker=5 api=2
+</code></pre>
+
+<h2 id="run-load-test">Run load test</h2>
+
+<pre><code>npm install -g artillery
+artillery run loadtest.yml
+</code></pre>
+
+<h2 id="start-a-request-against-load-balancer">Start a request against load balancer</h2>
+
+<pre><code>http://localhost:8182/api/add?a=1&amp;b=10
+</code></pre>
+
+<h3 id="traefik-dashboard">Traefik dashboard</h3>
+
+<p><a href="http://localhost:8181/">http://localhost:8181/</a></p>
+
+<h3 id="nats-dashboard">NATS dashboard</h3>
+
+<p><a href="http://localhost:3000/">http://localhost:3000/</a></p>
+
+<h3 id="nats-monitoring-endpoint">NATS monitoring endpoint</h3>
+
+<p><a href="http://localhost:8222/">http://localhost:8222/</a></p>
+
+<h3 id="zipkin-dashboard">Zipkin dashboard</h3>
+
+<p><a href="http://localhost:9411/">http://localhost:9411/</a></p>
+
+<h3 id="thank-you">Thank you</h3>
+
+<p>thanks most of all to the community who create these awesome opensource software and thereby making it possible.</p>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      Open-Source | <a href="https://github.com/starptech">Github</a> | <a href="https://twitter.com/dustindeus">Twitter</a> | <a href="https://www.xing.com/profile/Dustin_Deus2">Xing</a> | <a href="https://www.linkedin.com/in/dustin-deus-a300b7108">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+

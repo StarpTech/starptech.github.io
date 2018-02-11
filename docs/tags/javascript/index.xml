@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on StarpTech</title>
+    <link>/tags/javascript/</link>
+    <description>Recent content in Javascript on StarpTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 Jun 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Standard formatting in Javascript</title>
+      <link>/post/2017/06/03/standard-formatting-in-javascript/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017/06/03/standard-formatting-in-javascript/</guid>
+      <description>Formatting in Javascript must not be pain. You don&amp;rsquo;t have to use any linting configurations files. No .eslintrc, .jshintrc, or .jscsrc files to manage. Beside linting it also warns you about programmer errors early e.g unused variables, unhandled errors and more. Give StandardJs a try!
+ It&amp;rsquo;s like gofmt but for Javascript.
+ Installation npm install standard --save-dev  Editor support  vscode-standardjs vscode-standardjs-snippets  Other editors
+Using  Format your code with standard Fix code with standard -fix  Examples Simple integration in your build scripts.</description>
+    </item>
+    
+  </channel>
+</rss>

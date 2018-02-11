@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on StarpTech</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on StarpTech</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Javascript</title>
+      <link>/categories/javascript/</link>
+      <pubDate>Sat, 03 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>/categories/node.js/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinion</title>
+      <link>/categories/opinion/</link>
+      <pubDate>Sun, 10 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/opinion/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
