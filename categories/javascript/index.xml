@@ -18,8 +18,7 @@
       
       <guid>/post/2017/06/03/standard-formatting-in-javascript/</guid>
       <description>Formatting in Javascript must not be pain. You don&amp;rsquo;t have to use any linting configurations files. No .eslintrc, .jshintrc, or .jscsrc files to manage. Beside linting it also warns you about programmer errors early e.g unused variables, unhandled errors and more. Give StandardJs a try!
- It&amp;rsquo;s like gofmt but for Javascript.
- Installation npm install standard --save-dev  Editor support  vscode-standardjs vscode-standardjs-snippets  Other editors
+Installation npm install standard --save-dev  Editor support  vscode-standardjs vscode-standardjs-snippets  Other editors
 Using  Format your code with standard Fix code with standard -fix  Examples Simple integration in your build scripts.</description>
     </item>
     

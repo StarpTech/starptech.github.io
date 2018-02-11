@@ -11,8 +11,6 @@ tags:
 Formatting in Javascript must not be pain.
 You don't have to use any linting configurations files. **No** ~~.eslintrc~~, ~~.jshintrc~~, or ~~.jscsrc~~ files to manage. Beside linting it also warns you about programmer errors early e.g unused variables, unhandled errors and more. Give StandardJs a try!
 
-> It's like [gofmt](https://golang.org/cmd/gofmt/) but for Javascript.
-
 ## Installation
 
 ~~~javascript
