@@ -31,7 +31,16 @@ output:
 }
 
 .terms { font-size: .9em; }
-.menu, .article-meta, footer { text-align: center; }
+.menu, .article-meta {
+  text-align: center;
+  background: #f0f0f0;
+  line-height: 1.8em;
+}
+footer {
+  text-align: center;
+  background: #f0f0f0;
+  color: #999;
+}
 .title { font-size: 1.1em; line-height: 1em; }
 footer a { text-decoration: none; }
 
@@ -43,7 +52,7 @@ footer a { text-decoration: none; }
 }
 
 a {
-  color: #613DC1;
+  color: #408FEC;
   text-decoration: none;
 }
 
@@ -58,7 +67,7 @@ header {
     height: 1.75rem;
     font-family: "Lucida Console" , "Liberation Mono";
     font-size: .875rem;
-    background: #5d64d0;
+    background: #79589F;
     border-bottom: 1px solid #000;
 }
 

@@ -16,6 +16,4 @@ Today, I'm Software Architect and help the company to work according
 latest standard and best practices. In my free time I love to collaborate with the
 Opensource-Community.
 
-<hr/>
-
 ### Blog
