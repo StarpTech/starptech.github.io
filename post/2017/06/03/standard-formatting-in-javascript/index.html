@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Standard formatting in Javascript | StarpTech</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">/home/starptech</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/home</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/categories/">~/categories</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tags/">~/tags</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+  <br/>
+
+<div class="article-meta">
+<h1><span class="title">Standard formatting in Javascript</span></h1>
+<h2 class="date">2017/06/03</h2>
+<p class="terms">
+  
+  
+  Categories: <a href="/categories/javascript">javascript</a> 
+  
+  
+  
+  Tags: <a href="/tags/javascript">javascript</a> 
+  
+  
+</p>
+</div>
+
+
+
+<main>
+
+
+<p>Formatting in Javascript must not be pain.
+You don&rsquo;t have to use any linting configurations files. <strong>No</strong> <del>.eslintrc</del>, <del>.jshintrc</del>, or <del>.jscsrc</del> files to manage. Beside linting it also warns you about programmer errors early e.g unused variables, unhandled errors and more. Give StandardJs a try!</p>
+
+<blockquote>
+<p>It&rsquo;s like <a href="https://golang.org/cmd/gofmt/">gofmt</a> but for Javascript.</p>
+</blockquote>
+
+<h2 id="installation">Installation</h2>
+
+<pre><code class="language-javascript">npm install standard --save-dev
+</code></pre>
+
+<h2 id="editor-support">Editor support</h2>
+
+<ul>
+<li>vscode-standardjs</li>
+<li>vscode-standardjs-snippets</li>
+</ul>
+
+<p><a href="https://github.com/feross/standard#are-there-text-editor-plugins">Other editors</a></p>
+
+<h2 id="using">Using</h2>
+
+<ul>
+<li>Format your code with <code>standard</code></li>
+<li>Fix code with <code>standard -fix</code></li>
+</ul>
+
+<h2 id="examples">Examples</h2>
+
+<p>Simple integration in your build scripts.</p>
+
+<pre><code class="language-javascript">  &quot;scripts&quot;: {
+    &quot;test&quot;: &quot;standard &amp;&amp; nyc mocha&quot;
+  }
+</code></pre>
+
+<h2 id="references">References</h2>
+
+<ul>
+<li><a href="https://github.com/feross/standard">https://github.com/feross/standard</a></li>
+<li><a href="https://standardjs.com/">https://standardjs.com/</a></li>
+</ul>
+
+</main>
+
+<div id="disqus_thread"></div>
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+<script>
+     var disqus_config = function () {
+        this.page.url = "\/post\/2017\/06\/03\/standard-formatting-in-javascript\/";  
+        this.page.identifier = "a166357f79441ab6130b538cb96ef954"; 
+    };
+    (function() {  
+        var d = document, s = d.createElement('script');
+        s.src = 'https://starptech.disqus.com/embed.js';  
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+      
+      <hr/>
+      Open-Source | <a href="https://github.com/starptech">Github</a> | <a href="https://twitter.com/dustindeus">Twitter</a> | <a href="https://www.xing.com/profile/Dustin_Deus2">Xing</a> | <a href="https://www.linkedin.com/in/dustin-deus-a300b7108">LinkedIn</a>
+      
+    </footer>
+  </body>
+</html>
+
