@@ -21,3 +21,13 @@
 
 <div id="disqus_thread"></div>
 {{ partial "footer.html" . }}
+
+<script>
+    (function() {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://https-starptech-github-io.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
