@@ -125,6 +125,13 @@ h1 {
   line-height: 1.2;
 }
 
+.profile-photo {
+  max-width: 20%;
+  min-width: 40px;
+  float: right;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 600px) {
   main {
     margin-left: 20px;

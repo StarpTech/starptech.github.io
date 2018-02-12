@@ -2,7 +2,7 @@
 title: Home
 ---
 
-[<img src="https://avatars0.githubusercontent.com/u/1764424?s=460&v=4" style="max-width:12%;min-width:40px;float:right;" alt="StarpTech" />](https://github.com/StarpTech)
+[<img class="profile-photo" src="https://avatars0.githubusercontent.com/u/1764424?s=460&v=4" alt="StarpTech" />](https://github.com/StarpTech)
 
 # Dustin Deus - Fullstack developer
 
