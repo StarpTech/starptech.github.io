@@ -28,7 +28,7 @@ This configuration will setup:
       <pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>/post/2016/11/25/hemera/</guid>
-      <description>Hemera is a small wrapper around the NATS driver. NATS is a simple, fast and reliable solution for the internal communication of a distributed system. It chooses simplicity and reliability over guaranteed delivery. We want to provide a toolkit to develop micro services in an easy and powerful way. We use bloom filters to provide a pattern matching RPC style. You don&amp;rsquo;t have to worry about the transport. NATS is powerful.</description>
+      <description>Hemera (/ˈhɛmərə/; Ancient Greek: Ἡμέρα [hɛːméra] &amp;ldquo;day&amp;rdquo;) is a small wrapper around the NATS driver. NATS is a simple, fast and reliable solution for the internal communication of a distributed system. It chooses simplicity and reliability over guaranteed delivery. We want to provide a toolkit to develop micro services in an easy and powerful way. We provide a pattern matching RPC style. You don&amp;rsquo;t have to worry about the transport. NATS is powerful.</description>
     </item>
     
   </channel>
