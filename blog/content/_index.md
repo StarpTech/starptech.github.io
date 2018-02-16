@@ -4,9 +4,7 @@ title: Home
 
 [<img class="profile-photo" src="https://avatars0.githubusercontent.com/u/1764424?s=460&v=4" alt="StarpTech" />](https://github.com/StarpTech)
 
-# Dustin Deus - Fullstack developer
-
-### My personal blog
+# My personal blog
 
 My name is dustin deus and I'm 26 years old software engineer from Wuppertal, Germany.
 I have an extensive experience in software development in consideration of high quality standards.

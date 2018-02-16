@@ -3,17 +3,12 @@ body {
   margin: auto;
   padding: .2em;
   line-height: 1.5em;
+
+  font-size: calc(18px + .25vw);
+  letter-spacing: -.25px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
-
-/* Table of Contents, if wanted
-
-Add to yaml:
-
-output:
-  blogdown::html_page:
-    toc: true
-
-    */
 
 #TableOfContents, #TOC {
   border: 1px solid #eee;
@@ -61,13 +56,33 @@ a:hover {
   text-decoration: underline;
 }
 
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: calc(13px + .25vw);
+}
+nav ul li {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+}
+
+.post-list-entry {
+  list-style-position:inside;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;   
+}
+
 /* Adjust background at your leisure! */
 header {
     position: relative;
     width: 100%;
-    height: 1.75rem;
     font-family: "Lucida Console" , "Liberation Mono";
-    font-size: .875rem;
     background: #79589F;
     border-bottom: 1px solid #000;
 }
@@ -95,7 +110,8 @@ header .current a {
 /* Code Boxes */
 pre {
   border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
+  -webkit-box-shadow: 5px 5px 5px #eee;
+          box-shadow: 5px 5px 5px #eee;
   background: #f8f8f8;
   padding: 1em;
   overflow-x: auto;
@@ -105,7 +121,7 @@ pre code { background: none; }
 
 /* Images, tables, misc. */
 img, iframe, video { max-width: 100%; }
-main { hyphens: auto; }
+main { -webkit-hyphens: auto; -ms-hyphens: auto; hyphens: auto; }
 blockquote {
   background: #f9f9f9;
   border-left: 5px solid #ccc;
