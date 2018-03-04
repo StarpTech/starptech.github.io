@@ -6,7 +6,7 @@
   {{ range $key, $value := .Data.Terms }}
   <li>
     <a href="{{ (print "/" $.Data.Plural "/" (lower $key)) | relURL }}">
-      {{ $key }}
+      <i class="fas fa-tag"></i> {{ $key }}
     </a>
     ({{ len $value }})
   </li>

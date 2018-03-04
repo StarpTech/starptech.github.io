@@ -9,6 +9,9 @@
 <ul class="post-list">
   {{ range (where .Data.Pages "Section" "!=" "") }}
   <li class="post-list-entry">
+    <div class="icon">
+        <i class="far fa-newspaper"></i>
+    </div>
     <span class="date">{{ .Date.Format "2006/01/02" }}</span>
     <a href="{{ .URL }}">{{ .Title }}</a>
   </li>
