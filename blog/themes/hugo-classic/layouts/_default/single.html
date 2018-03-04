@@ -19,15 +19,5 @@
 {{ .Content }}
 </main>
 
-<div id="disqus_thread"></div>
+{{ template "_internal/disqus.html" . }}
 {{ partial "footer.html" . }}
-
-<script>
-    (function() {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://starptech.disqus.com/embed.js';
-        
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
