@@ -39,7 +39,7 @@ body {
     border-radius: 5px 5px 0 0
 }
 
-.terms {
+.terms-list {
     font-size: .9em;
 }
 
@@ -216,6 +216,13 @@ h1 {
 }
 
 .post-list {
+    background: #ffff;
+    padding: 25px;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.terms-list__no-style {
     background: #ffff;
     padding: 25px;
     border-radius: 5px;
