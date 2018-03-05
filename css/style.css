@@ -54,6 +54,7 @@ footer {
     text-align: center;
     color: #999;
     padding: 5px;
+    margin: 25px 0 25px 0;
 }
 
 .title {
@@ -176,7 +177,6 @@ main {
     border-left: 1px solid #e4e4e4;
     padding: 25px;
     border-radius: 0 0 5px 5px;
-    margin-bottom: 25px;
 }
 
 blockquote {
