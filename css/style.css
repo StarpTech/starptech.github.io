@@ -143,12 +143,10 @@ header .current a {
 /* Code Boxes */
 
 pre {
-    border: 1px solid #ddd;
-    -webkit-box-shadow: 5px 5px 5px #eee;
-    box-shadow: 5px 5px 5px #eee;
     background: #f8f8f8;
     padding: 1em;
     overflow-x: auto;
+    margin: 0 -25px;
 }
 
 code {
