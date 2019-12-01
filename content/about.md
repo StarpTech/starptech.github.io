@@ -10,21 +10,23 @@ My name is Dustin and I’m fullstack software engineer from Germany. I have an 
 
 To me, fullstack really means: 
 
-- Did you choose the correct repo strategy (single or mono) ?
-- Is the CI/DI pipeline maintainable ?
-- Deployment with zero downtime ?
-- Can we scale at any time ?
-- Do we need a package registry (NPM, Docker) ?
-- What service architecture is needed REST, GraphQl ?
-- Is our infrastructure, build reproducible ?
-- ...
+- Choose the correct repo strategy (single or mono).
+- Setup a CI/DI pipeline.
+- Deploy with zero downtime.
+- Ccale and rollback at any time.
+- Infrastructure changes and builds are reproducible.
+- Programming language and application frameworks are choosen based on team-knowledge and project requirements.
+- Use the best communications tools e.g Hangout, Slack.
+- Use a process framework like Scrum.
 
-To me quality really means:
+To me, quality really means:
 
-- Writing unit, integration and performance tests ! 
-- Testing your app in real world conditions aka E2E tests !
-- Establish Coding Standards !
-- Build, Measure, learn !
+- Write unit, integration and performance tests. 
+- Test your app in real world conditions aka E2E tests.
+- Establish Coding Standards.
+- Follow best-practices of the community.
+
+**Build, Measure, learn your entire life!**
 
 In the last years, I developed many web applications in different javascript frameworks from [Angular 1](https://angularjs.org/) to [Angular 5](https://angular.io/) or [React](https://reactjs.org/). Today, I’m working at [dynabase](https://dynabase.de/). We are helping our industrial customers to efficiently achieve their digital production targets and visions.
 
