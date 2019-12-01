@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/javascript/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/javascript/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2017-06-03-js-formatting/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2017-06-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/aither/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/microservice/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/node.js/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/poc/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/hemera/</loc>
+    <lastmod>2016-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/opinion/</loc>
+    <lastmod>2016-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/the-classic-developer-nowadays/</loc>
+    <lastmod>2016-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+</urlset>
