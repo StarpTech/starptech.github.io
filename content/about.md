@@ -13,7 +13,7 @@ To me, fullstack really means:
 - Choose the correct repo strategy (single or mono).
 - Setup a CI/DI pipeline.
 - Deploy with zero downtime.
-- Ccale and rollback at any time.
+- Scale and rollback at any time.
 - Infrastructure changes and builds are reproducible.
 - Programming language and application frameworks are choosen based on team-knowledge and project requirements.
 - Use the best communications tools e.g Hangout, Slack.
