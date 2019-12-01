@@ -60,7 +60,7 @@ This configuration will setup:
       <guid>/about/</guid>
       <description>Hi there! My name is Dustin and I’m fullstack software engineer from Germany. I have an extensive experience in software development in consideration of high quality standards.
 To me, fullstack really means:
- Did you choose the correct repo strategy (single or mono) ? Is the CI/DI pipeline maintainable ? Deployment with zero downtime ? Can we scale at any time ? Do we need a package registry (NPM, Docker) ?</description>
+ Choose the correct repo strategy (single or mono). Setup a CI/DI pipeline. Deploy with zero downtime. Ccale and rollback at any time. Infrastructure changes and builds are reproducible. Programming language and application frameworks are choosen based on team-knowledge and project requirements.</description>
     </item>
     
   </channel>
