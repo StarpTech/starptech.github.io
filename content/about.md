@@ -28,6 +28,6 @@ To me, quality really means:
 
 **Build, Measure, learn your entire life!**
 
-In the last years, I developed many web applications in different javascript frameworks from [Angular 1](https://angularjs.org/) to [Angular 5](https://angular.io/) or [React](https://reactjs.org/). Today, I’m working at [dynabase](https://dynabase.de/). We are helping our industrial customers to efficiently achieve their digital production targets and visions.
+In the last years, I developed many web applications in different javascript frameworks from [Angular 1](https://angularjs.org/) to [Angular 5](https://angular.io/) or [React](https://reactjs.org/). Today, I’m working at [dynabase](https://dynabase.de/). We are helping our industrial customers to efficiently archieve their digital production targets and visions.
 
 In my free time, I love to collaborate with the Opensource-Community. I'm also maintainer of several opensource projects. Check out my [Github Profile](https://github.com/StarpTech).
