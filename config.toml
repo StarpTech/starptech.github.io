@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "terminal"
-paginate = 3
+paginate = 6
 disqusShortname = "starptech"
 googleAnalytics = "UA-115030952-1"
 preserveTaxonomyNames = true
@@ -9,11 +9,14 @@ preserveTaxonomyNames = true
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [params]
   # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # ["orange", "blue", "red", "green", "pink"]
-  themeColor = "green"
+  themeColor = "blue"
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 5
   # show selector to switch language
