@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Dustin Deus</copyright>
-    <lastBuildDate>Sat, 03 Jun 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Distributed Event Store with NATS-Streaming</title>
+      <link>/posts/2020-01-12-distributed-event-store-with-nats-streaming/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-01-12-distributed-event-store-with-nats-streaming/</guid>
+      <description>Distributed Event Store with NATS-Streaming This is my first post on medium. I&#39;m going to talk about my hands-on experience while implementing a distributed event store. The goal was to implement event sourcing from scratch and offloading reliable message delivery to NATS.
+https://medium.com/@deusdustin/distributed-event-store-with-nats-streaming-43981cb19fe0</description>
+    </item>
     
     <item>
       <title>Standard formatting in Javascript</title>
@@ -60,7 +70,7 @@ This configuration will setup:
       <guid>/about/</guid>
       <description>Hi there! My name is Dustin and I’m fullstack software engineer from Germany. I have an extensive experience in software development in consideration of high quality standards.
 To me, fullstack really means:
- Choose the correct repo strategy (single or mono). Setup a CI/DI pipeline. Deploy with zero downtime. Scale and rollback at any time. Infrastructure changes and builds are reproducible. Programming language and application frameworks are choosen based on team-knowledge and project requirements.</description>
+ Choose the correct repo strategy (single or mono). Setup a CI/DI pipeline. Deploy with zero downtime. Scale and rollback at any time. Infrastructure changes and builds are reproducible. Use the best communications tools e.g Hangout, Slack. Use a process framework like Scrum.</description>
     </item>
     
   </channel>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on Dustin Deus - My personal blog</title>
+    <link>/tags/golang/</link>
+    <description>Recent content in golang on Dustin Deus - My personal blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Dustin Deus</copyright>
+    <lastBuildDate>Sun, 12 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Distributed Event Store with NATS-Streaming</title>
+      <link>/posts/2020-01-12-distributed-event-store-with-nats-streaming/</link>
+      <pubDate>Sun, 12 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-01-12-distributed-event-store-with-nats-streaming/</guid>
+      <description>Distributed Event Store with NATS-Streaming This is my first post on medium. I&#39;m going to talk about my hands-on experience while implementing a distributed event store. The goal was to implement event sourcing from scratch and offloading reliable message delivery to NATS.
+https://medium.com/@deusdustin/distributed-event-store-with-nats-streaming-43981cb19fe0</description>
+    </item>
+    
+  </channel>
+</rss>
