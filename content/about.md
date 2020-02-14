@@ -5,6 +5,7 @@ disable_comments: true
 ---
 
 # Hi there!
+
 <br>
 
 <img alt="dustin deus" width="260" height="260" src="https://avatars0.githubusercontent.com/u/1764424?s=460&amp;v=4">
@@ -13,20 +14,21 @@ disable_comments: true
 
 My name is Dustin and I’m fullstack software engineer from Germany. I have an extensive experience in software development in consideration of high quality standards.
 
-To me, fullstack really means: 
+To me, fullstack really means:
 
 - Choose the correct repo strategy (single or mono).
-- Setup a CI/DI pipeline.
+- Setup a CI/CD pipeline.
 - Deploy with zero downtime.
 - Scale and rollback at any time.
 - Infrastructure changes and builds are reproducible.
 - Use the best communications tools e.g Hangout, Slack.
-- Use a process framework like Scrum.
+- Choose the best language and framework for the job.
+- Use a process framework like Scrum/Kanban.
 
 To me, quality really means:
 
 - Write unit, integration and performance tests.
-- CI/DI on my fingertips.
+- Have CI/CD on your fingertips.
 - Test your app in real world conditions aka E2E tests.
 - Establish Coding Standards.
 - Follow best-practices of the community.
