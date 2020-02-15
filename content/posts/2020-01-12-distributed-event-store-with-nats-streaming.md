@@ -1,7 +1,7 @@
 ---
 title: Distributed Event Store with NATS-Streaming
 author: Dustin Deus
-date: '2020-01-12'
+date: "2020-01-12"
 categories:
   - microservice
   - event sourcing
@@ -12,8 +12,6 @@ tags:
   - event sourcing
   - golang
 ---
-
-# Distributed Event Store with NATS-Streaming
 
 This is my first post on medium. I'm going to talk about my hands-on experience while implementing a distributed event store. The goal was to implement event sourcing from scratch and offloading reliable message delivery to NATS.
 
