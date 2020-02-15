@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://starptech.de/"
 # website language
 languageCode = "en-us"
 # [en, zh, ...] determines which i18n file to use
