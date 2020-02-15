@@ -4,15 +4,9 @@ author: Dustin Deus
 disable_comments: true
 ---
 
-# Hi there!
+# Hi,
 
-<br>
-
-<img alt="dustin deus" width="260" height="260" src="https://avatars0.githubusercontent.com/u/1764424?s=460&amp;v=4">
-
-<br>
-
-My name is Dustin and I’m fullstack software engineer from Germany. I have an extensive experience in software development in consideration of high quality standards.
+my name is Dustin and I’m fullstack software engineer from Germany. I have an extensive experience in software development in consideration of high quality standards.
 
 To me, fullstack really means:
 
