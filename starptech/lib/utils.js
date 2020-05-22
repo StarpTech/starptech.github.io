@@ -11,6 +11,7 @@ export const Configs = {
   email: BLOG.email ? `mailto:${BLOG.email}` : null,
   github: BLOG.github ? `https://github.com/${BLOG.github}` : null,
   twitter: BLOG.twitter ? `https://twitter.com/${BLOG.twitter}` : null,
+  xing: BLOG.xing ? `https://xing.com/profile/${BLOG.xing}` : null,
   
   enableViews: BLOG.enableViews || false,
   latestLimit: BLOG.latestLimit || 5,

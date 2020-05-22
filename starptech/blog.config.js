@@ -17,6 +17,7 @@ const BLOG = {
   github: 'starptech',
   twitter: 'dustindeus',
   domain: 'starptech.de',
+  xing: 'Dustin_Deus2/cv',
   
   googleAnalytics: 'UA-115030952-1',
   cn: false,

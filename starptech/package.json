@@ -9,7 +9,7 @@
     "post": "node scripts/create.js",
     "collect": "node scripts/collect-meta.js",
     "export": "npm run now-build && next export",
-    "deploy": "touch out/.nojekyll && touch out/CNAME && echo \"starptech.de\" >> out/CNAME && gh-pages -d out -b master"
+    "deploy": "touch out/.nojekyll && touch out/CNAME && echo \"starptech.de\" >> out/CNAME && gh-pages -d out -b master -t"
   },
   "dependencies": {
     "@zeit-ui/react": "^1.5.0",

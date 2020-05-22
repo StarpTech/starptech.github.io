@@ -26,6 +26,7 @@ const Contacts = ({ isDetailPage = false }) => {
             {Configs.email && <Link aria-label="email" href={Configs.email} {...linkProps}>Email</Link> }
             {Configs.github && <Link aria-label="github" href={Configs.github} {...linkProps}>Github</Link>}
             {Configs.twitter && <Link aria-label="twitter" href={Configs.twitter} {...linkProps}>Twitter</Link>}
+            {Configs.xing && <Link aria-label="twitter" href={Configs.xing} {...linkProps}>Xing</Link>}
           </div>
           <div>
             {isDark && <span title={themeTitle}><SunIcon onClick={switchTheme} size={16} /></span>}
