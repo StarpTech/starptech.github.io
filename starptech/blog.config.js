@@ -18,6 +18,7 @@ const BLOG = {
   twitter: 'dustindeus',
   domain: 'starptech.de',
   xing: 'Dustin_Deus2/cv',
+  linkedin: 'dustin-deus',
   
   googleAnalytics: 'UA-115030952-1',
   cn: false,

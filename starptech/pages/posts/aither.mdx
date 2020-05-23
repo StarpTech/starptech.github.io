@@ -1,5 +1,5 @@
 import Layout from 'lib/components/layout'
-import { Button } from '@zeit-ui/react'
+import { Button, Snippet, Spacer } from '@zeit-ui/react'
 
 export const meta = {
   title: 'An example microservice system using Hemera and best of today',
@@ -27,17 +27,22 @@ This configuration will setup:
 ![aither](https://github.com/hemerajs/aither/blob/master/aither-architecture.png?raw=true)
 
 ## Running the system
-```bash
-docker-compose up
-```
+<Spacer />
+<Snippet text="docker-compose up" type="dark" width="300px" />
+<Spacer />
 
 ## Scaling the system
-```
-docker-compose scale worker=5 api=2
-```
+<Spacer />
+<Snippet text="docker-compose scale worker=5 api=2" type="dark" width="300px" />
+<Spacer />
 
 ## Run load test
+export const codes = `
+npm install -g artillery
+artillery run loadtest.yml
+`
 
+<Code block>{codes}</Code>
 ```bash
 npm install -g artillery
 artillery run loadtest.yml
