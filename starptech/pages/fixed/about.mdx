@@ -1,5 +1,5 @@
 import Layout from 'lib/components/layout'
-import { Button } from '@zeit-ui/react'
+import { Button, Link } from '@zeit-ui/react'
 
 export const meta = {
   title: 'About me',
@@ -8,34 +8,30 @@ export const meta = {
 }
 
 Hi,
-my name is Dustin and I’m fullstack software engineer from Germany. I have an extensive experience in software development in consideration of high quality standards.
+my name is Dustin and I’m Fullstack Software Engineer from Germany. I'm specialized in creating reliable and beautiful web application. This implies the whole journey.
+I create web applications in frameworks like Next.js, Gatsby, Angular. The backend is preferably implemented in Node.js, C# or Golang. Cloud providers like AWS, Google Cloud are used to provide the required infrastructure.
+If I may express my way of working in only one sentence: Build, Measure, learn my entire life!
 
-To me, fullstack really means:
+In my free time, I love to collaborate with the Opensource-Community. I’m also maintainer of several opensource projects. Check out my <Link icon color aria-label="github" href="https://github.com/starptech">Github Profile</Link>.
+
+
+What fullstack really means to me:
 
 - Choose the correct repo strategy (single or mono).
-- Setup a CI/CD pipeline.
+- Setup a CI/CD pipeline (Github CI, Jenkins).
 - Deploy with zero downtime.
 - Scale and rollback at any time.
-- Infrastructure changes and builds are reproducible.
-- Use the best communications tools e.g Hangout, Slack.
+- Infrastructure changes and builds are reproducible (Terraform).
+- Use the best communications tools (Hangout, Slack).
 - Choose the best language and framework for the job.
 - Use a process framework like Scrum/Kanban.
 
-To me, quality really means:
+What software quality really means to me:
 
 - Write unit, integration and performance tests.
 - Have CI/CD on your fingertips.
 - Test your app in real world conditions aka E2E tests.
 - Establish Coding Standards.
 - Follow best-practices of the community.
-
-**Build, Measure, learn your entire life!**
-
-In the last years, I developed many web applications in different javascript frameworks from Angular 1 to Angular 5 or React . The backend was implemented in Node.js, C# (.Net) or Golang. The infrastructure was offloaded on cloud providers like AWS.
-
-Currently, I’m working at dynabase . We are helping our industrial customers to efficiently archieve their digital production targets and visions.
-
-In my free time, I love to collaborate with the Opensource-Community. I’m also maintainer of several opensource projects. Check out my Github Profile .
-
 
 export default ({ children }) => <Layout meta={meta}>{children}</Layout>
