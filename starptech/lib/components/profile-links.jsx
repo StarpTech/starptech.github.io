@@ -27,7 +27,7 @@ const ProfileLinks = () => {
   return (
     <div className="link">
       {makeLink({ url: '/blog', name: Configs.labels.default })}
-      {<Link href="https://twitter.com/dustindeus/with_replies">{fillSpace("Engineer Journey")}</Link>}
+      {<Link target="_blank" href="https://twitter.com/dustindeus/with_replies">{fillSpace("Engineer Journey")}</Link>}
       {links.map(link => makeLink(link))}
   
       <style jsx>{`
